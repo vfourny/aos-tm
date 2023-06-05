@@ -1,7 +1,6 @@
 <template>
-  <HeaderApp />
+  <HeaderApp title="test"/>
   <ion-content>
-    <h1>Add new game results</h1>
     <form @submit.prevent="handleFormSubmit">
       <ion-list>
         <ion-item

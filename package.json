@@ -1,6 +1,7 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -8,18 +9,12 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "typegen": "pocketbase-typegen --db ./pocketbase/pb_data/data.db --out ./src/types/pocketbase-types.ts",
-    "ts:check": "vue-tsc --noEmit",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "ts:check": "vue-tsc --noEmit"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/i18n": "^8.0.0-beta.12",
     "@nuxtjs/ionic": "^0.11.0",
-    "@types/node": "^18",
-    "eslint": "^8.42.0",
-    "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-typescript-sort-keys": "^2.3.0",
+    "@types/node": "^20.2.5",
     "nuxt": "^3.5.2",
     "nuxt-lodash": "^2.4.1",
     "pocketbase-typegen": "^1.1.9",
@@ -31,6 +26,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@vee-validate/nuxt": "^4.9.6",
+    "@vee-validate/yup": "^4.9.6",
     "pocketbase": "^0.15.1",
     "yup": "^1.2.0"
   }

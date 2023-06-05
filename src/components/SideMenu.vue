@@ -24,11 +24,9 @@
 
 <script setup lang="ts">
 
-interface SideMenuModel {
-  contentId:  string;
-}
-
-const   props = defineProps<SideMenuModel>();
+const   props = defineProps<{
+  contentId:  string
+}>();
 
 const menu = ref();
 

@@ -1,5 +1,5 @@
 import { FormFieldModel, FORM_FIELD_TYPE } from "../UI/FormField/FormField.utils"
-import { SCENARIO, FACTION, SUBFACTION, GRAND_STRATEGY } from "../../types/enums"
+import { SCENARIO, SUBFACTION, GRAND_STRATEGY } from "../../types/enums"
 
 export const getCreateGameFields = (): FormFieldModel[] => [
 	{

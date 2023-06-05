@@ -1,0 +1,87 @@
+{
+  "aos": {
+    "grandAlleagiance": {
+      "chaos": {
+        "faction": {
+          "slavesToDarkness": {
+            "name": "Esclaves des Ténèbres",
+            "subfaction": {
+              "cabalists": "Cabalistes",
+              "despoilers": "Profanateurs",
+              "hostOfEverchosen": "Ost de l'Elu Eternel",
+              "knightOfEmptyThrone": "Chevaliers du Trône Vacant",
+              "legionOfTheFirstPrince": "Légion du Premier Prince",
+              "ravagers": "Ravageurs"
+            }
+          }
+        },
+        "name": "Chaos"
+      },
+      "death": {
+        "faction": {
+          "ossiarchBonereapers": {
+            "name": "Collecteurs Ossiarques",
+            "subfaction": {
+              "crematorians": "Crématorians",
+              "ivoryHost": "Ost d'Ivoire",
+              "mortisPraetoriens": "Mortis Praetoriens",
+              "nullMyriad": "Myriade du Néant",
+              "petrifexElite": "Elite Petrifex",
+              "stalliarchLord": "Seigneurs Stalliarques"
+            }
+          },
+          "soulblightGravelords": {
+            "name": "Seigneurs Ruinemânes",
+            "subfaction": {
+              "avengorii": "Avengorii",
+              "kastelai": "Kastelai",
+              "legionOfBlood": "Légion du Sang",
+              "legionOfNight": "Légion de la Nuit",
+              "vyrkos": "Vyrkos"
+            }
+          }
+        },
+        "name": "Mort"
+      },
+      "destruction": {
+        "faction": {},
+        "name": "Destruction"
+      },
+      "order": {
+        "faction": {},
+        "name": "Ordre"
+      }
+    }
+  },
+  "common": {
+    "label": {
+      "save": "Enregistrer"
+    }
+  },
+  "games": {
+    "pages":{
+      "list":{
+        "title":"Liste des parties"
+      },
+      "create":{
+        "title":"Créer une partie"
+      },
+      "update":{
+        "title":"Modifier une partie"
+      }
+    },
+    "labels": {
+      "battleTactics": "Tactiques de bataille",
+      "faction": "Allégeance",
+      "grandStrategy": "Grande stratégie",
+      "isGrandStrategyValidate": "Grande stratégie validée ?",
+      "name": "Nom",
+      "notes": "Notes",
+      "scenario": "Scénario",
+      "score": "Score",
+      "season": "Saison",
+      "subfaction": "Sous-Allégeance",
+      "version": "Version"
+    }
+  }
+}

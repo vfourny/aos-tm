@@ -18,7 +18,7 @@
         required
       />
     </ion-item>
-    <ion-button @click="handleLoginWithEmailAndPassword" />
+    <ion-button @click="handleLoginWithEmailAndPassword" ></ion-button>
     <ion-button
       expand="block"
       @click="handleLoginWithGoogle"

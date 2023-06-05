@@ -1,5 +1,5 @@
 <template>
-  <HeaderApp />
+  <HeaderApp title="GamesList"/>
   <ion-content>
     <ion-list>
       <ion-item-group
@@ -48,7 +48,7 @@
 </template>
 
 <script setup lang="ts">
-import { FACTIONS } from "@/utils/const";
+import { FACTIONS } from "~/utils/const";
 import { GameResponse } from '~/types/pocketbase-types';
 import CreateGameForm from '../../components/Games/CreateGameForm.vue';
 

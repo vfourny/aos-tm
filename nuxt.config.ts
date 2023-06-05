@@ -1,3 +1,6 @@
+import fr from "./locales/fr.json"
+import en from "./locales/en.json"
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	components: [
@@ -20,14 +23,14 @@ export default defineNuxtConfig({
 		}
 	},
 	lodash: {
-		exclude: ["map"],
 		prefix: "_",
 		upperAfterPrefix: false
 	},
-	modules: ["@nuxtjs/ionic", "@vee-validate/nuxt", "nuxt-lodash", "@nuxtjs/eslint-module"],
+	modules: ["@nuxtjs/ionic", "@vee-validate/nuxt", "nuxt-lodash"],
 	pages: true,
 	srcDir: "src",
 	typescript: {
-		typeCheck: "build"
+		typeCheck: "build",
+		shim:false
 	}
 })

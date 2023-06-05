@@ -1,0 +1,87 @@
+{
+  "aos": {
+    "grandAlleagiance": {
+      "chaos": {
+        "faction": {
+          "slavesToDarkness": {
+            "name": "Slaves to Darkness",
+            "subfaction": {
+              "cabalists": "Cabalists",
+              "despoilers": "Despoilers",
+              "hostOfEverchosen": "Host of the Everchosen",
+              "knightOfEmptyThrone": "Knight of The Empty Throne",
+              "legionOfTheFirstPrince": "Legion of The First Prince",
+              "ravagers": "Ravagers"
+            }
+          }
+        },
+        "name": "Chaos"
+      },
+      "death": {
+        "faction": {
+          "ossiarchBonereapers": {
+            "name": "Ossiarch Bonereapers",
+            "subfaction": {
+              "crematorians": "Crematorians",
+              "ivoryHost": "Ivory Host",
+              "mortisPraetoriens": "Mortis Praetoriens",
+              "nullMyriad": "Null Myriad",
+              "petrifexElite": "Petrifex Elite",
+              "stalliarchLord": "Stalliarch Lords"
+            }
+          },
+          "soulblightGravelords": {
+            "name": "Soulblight Gravelords",
+            "subfaction": {
+              "avengorii": "Avengorii",
+              "kastelai": "Kastelai",
+              "legionOfBlood": "Blood Legion",
+              "legionOfNight": "Night Legion",
+              "vyrkos": "Vyrkos"
+            }
+          }
+        },
+        "name": "Death"
+      },
+      "destruction": {
+        "faction": {},
+        "name": "Destruction"
+      },
+      "order": {
+        "faction": {},
+        "name": "Order"
+      }
+    }
+  },
+  "common": {
+    "label": {
+      "save": "Save"
+    }
+  },
+  "games": {
+    "pages":{
+      "list":{
+        "title":"Games List"
+      },
+      "create":{
+        "title":"Add a game"
+      },
+      "update":{
+        "title":"Update a game"
+      }
+    },
+    "labels": {
+      "battleTactics": "Battletactics",
+      "faction": "Allegiance",
+      "grandStrategy": "Grand strategy",
+      "isGrandStrategyValidate": "Grand strategy validated ?",
+      "name": "Name",
+      "notes": "Notes",
+      "scenario": "Scenario",
+      "score": "Score",
+      "season": "Season",
+      "subfaction": "Subfaction",
+      "version": "Version"
+    }
+  }
+}
