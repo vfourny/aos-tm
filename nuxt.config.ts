@@ -27,7 +27,7 @@ export default defineNuxtConfig({
 	pages: true,
 	srcDir: "src",
 	typescript: {
-		typeCheck: "build",
+		// typeCheck: "build",
 		shim:false
 	},
 })
