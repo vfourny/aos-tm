@@ -6,17 +6,16 @@ export const useAuth = () => {
 	const user = useState<UserResponse |null>(Collections.User, () => null)
 
 	const loginWithEmailAndPassword = async (email:string, password:string) => {
-		return await $pb.collection(Collections.User).authWithPassword<UserResponse>(email, password)
+		return await useAsyncData(async () => {
+		const response = await $pb.collection(Collections.User).authWithPassword<UserResponse>(email, password)
+		user.value = response.record
+		})
 	}
 
 	const loginWithGoogle = async () => {
-		try {
-			const data = await $pb.collection(Collections.User).authWithOAuth2<UserResponse>({ provider: "google" })
-			user.value = data.record
-			return data
-		} catch (e) {
-			console.log(e)
-		}
+			const response = await $pb.collection(Collections.User).authWithOAuth2<UserResponse>({ provider: "google" })
+			user.value = response.record
+			return response
 	}
 
 	const logout = async () => {

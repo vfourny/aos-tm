@@ -1,6 +1,3 @@
-import fr from "./locales/fr.json"
-import en from "./locales/en.json"
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	components: [
@@ -32,5 +29,5 @@ export default defineNuxtConfig({
 	typescript: {
 		typeCheck: "build",
 		shim:false
-	}
+	},
 })

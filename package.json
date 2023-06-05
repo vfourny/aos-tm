@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "start": "./output/server/index.mjs",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -12,7 +13,6 @@
     "ts:check": "vue-tsc --noEmit"
   },
   "devDependencies": {
-    "@nuxtjs/i18n": "^8.0.0-beta.12",
     "@nuxtjs/ionic": "^0.11.0",
     "@types/node": "^20.2.5",
     "nuxt": "^3.5.2",
